@@ -1,0 +1,54 @@
+
+#title{
+		text-align: center;	
+}
+
+
+figcaption{
+	text-align: center;
+	text-decoration: underline;
+}
+li{
+	text-align: justify-all;
+}
+.responsive{
+	width: 100%;
+	height: auto;
+}
+img{
+	height: 300px;
+	width: auto;
+	align-content: center;
+}
+.Desc{
+	text-align: center;
+}
+.img-modi{
+	border-radius: 50%;
+	width: 90px;
+	height: 100px;
+	position: relative;
+	float:left;
+}
+.quote-card {
+  background: #fff;
+  color: #222222;
+  padding: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  border-radius:20px;
+  box-shadow: 0 8px 8px rgba(34, 34, 34, 0.12);
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+}
+@media (max-width: 640px) {
+  .quote-card:after {
+    font-size: 22em;
+    right: -25px;
+  }
+}
+
+h2{
+	text-align: center;
+}
